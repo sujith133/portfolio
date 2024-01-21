@@ -1,0 +1,24 @@
+.listItem {
+  list-style-type: none;
+  width: 350px;
+  height: 100%;
+  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 20px;
+  transform: scale(0.8);
+}
+.listItem:hover {
+  transform: scale(1);
+}
+
+@media only screen and (max-width: 530px) {
+  .listItem {
+    margin: 0px;
+    width: 400px;
+    transform: translate(-50px, 0px) scale(0.7);
+  }
+  .listItem:hover {
+    transform: translate(-50px, 0px) scale(0.7);
+  }
+}

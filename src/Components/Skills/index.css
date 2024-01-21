@@ -1,0 +1,40 @@
+.skillContainer {
+  color: white;
+  height: 100%;
+  width: 100vw;
+  padding: 20px;
+}
+.percentage {
+  height: 300px;
+  width: 300px;
+  margin-left: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border: solid 5px black;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.rowCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.percentage:hover {
+  transform: scale(1.5);
+}

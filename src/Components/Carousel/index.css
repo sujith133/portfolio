@@ -1,0 +1,24 @@
+.sizes {
+  height: 100%;
+  width: 100%;
+}
+.actived {
+  background-color: aliceblue;
+}
+.positions {
+  position: relative;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.imageContainer {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+  margin: 20px;
+}
+.carouselImages {
+  height: 100%;
+  width: 100%;
+}

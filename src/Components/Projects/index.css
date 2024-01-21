@@ -1,0 +1,31 @@
+.projectContainer {
+  height: 100%;
+  width: 100vw;
+  padding: 10px;
+  color: white;
+
+}
+.projectBlog {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media only screen and(max-width:530px) {
+  .projectBlog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .projectContainer {
+    height: 100%;
+    width: 100vw;
+    padding: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

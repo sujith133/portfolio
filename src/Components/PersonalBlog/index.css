@@ -1,0 +1,37 @@
+.personalBLog {
+  color: white;
+  height: 100%;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.photoBlog {
+  background-color: lightcoral;
+  height: 100%;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.photoContainer {
+  width: 70vw;
+  height: 50vw;
+}
+.CarouselImages {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 530px) {
+  .photoBlog {
+    background-color: lightcoral;
+  }
+}
