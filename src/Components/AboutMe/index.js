@@ -13,7 +13,7 @@ const AboutMe = () => {
     <div className="aboutContainer row" id="aboutMe">
       <div className="column columnContaining">
         <img
-          src="https://raw.githubusercontent.com/sujith133/myPortfolio/main/Myportfolio/rakeshedited.jpg"
+          src="https://raw.githubusercontent.com/sujith133/myPortfolio/main/Myportfolio/IMG_8976.jpg"
           alt="profile"
           className="image"
         />
@@ -37,7 +37,7 @@ const AboutMe = () => {
             <span className="red">.</span>
           </p>
           <img
-            src="https://raw.githubusercontent.com/sujith133/myPortfolio/main/Myportfolio/rakeshedited.jpg"
+            src="https://raw.githubusercontent.com/sujith133/myPortfolio/main/Myportfolio/IMG_8976.jpg"
             alt="profile"
             className="imagemobile"
           />
