@@ -22,7 +22,7 @@
   .projectContainer {
     height: 100%;
     width: 100vw;
-    padding: 0px;
+    padding: 20px;
     color: white;
     display: flex;
     flex-direction: column;
